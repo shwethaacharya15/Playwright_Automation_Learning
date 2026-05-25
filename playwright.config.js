@@ -9,7 +9,7 @@ module.exports = defineConfig({
   },
   reporter: 'html',
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
   },
   projects: [
